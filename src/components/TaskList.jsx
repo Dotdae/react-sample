@@ -11,7 +11,7 @@ export default function TaskList() {
   }
 
   return (
-    <div className="xl:grid grid-cols-4 gap-2 sm:flex flex-col">
+    <div className="xl:grid grid-cols-4 gap-2 sm:flex flex-col gap-5">
       {tasks.map((task) => (
         <TaskCard task={task} key={task.id} />
       ))}
